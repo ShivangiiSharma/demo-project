@@ -15,8 +15,7 @@ Builder.registerComponent(Text, {
         },
         {
             name: 'description',
-            type: 'string',
-            defaultValue: 'This is a text element.'
+            type: 'string'
         }
     ]
 });
