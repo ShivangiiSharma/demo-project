@@ -9,9 +9,9 @@ Builder.registerComponent(Text, {
     name : 'Text Element',
     inputs: [
         {
-        name: 'headline',
-        type: 'string',
-        defaultValue: 'This is a text element.'
+            name: 'headline',
+            type: 'string',
+            defaultValue: 'This is a text element.'
         },
         {
             name: 'description',
