@@ -1,8 +1,8 @@
-import dyamic from 'next/dynamic'
+import dynamic from 'next/dynamic'
 import { Builder } from '@builder.io/react'
 
 const Text = dynamic(async () => {
-    return (aawait import('./Text')).default
+    return (await import('./Text')).default
 })
 
 Builder.registerComponent(Text, {
